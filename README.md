@@ -21,4 +21,4 @@ A free wifi cracking tool. This tool is developed fully for educational purposes
     7. Now when handshake is captured press option 5
 
 #Credit
-Mohammed athif - [Linkedin](http://lin) | [Instagram]() 
+Mohammed athif - [Linkedin](https://www.linkedin.com/in/mohammed-athif-scr/) | [Instagram](https://instagram.com/mohammed__athif?igshid=ZDdkNTZiNTM=) 
