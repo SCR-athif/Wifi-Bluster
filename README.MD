@@ -22,5 +22,3 @@ A free wifi cracking tool. This tool is developed fully for educational purposes
 
 #Credit
 Mohammed athif - [Linkedin](https://www.linkedin.com/in/mohammed-athif-scr/) | [Instagram](https://instagram.com/mohammed__athif?igshid=ZDdkNTZiNTM=) 
-
-HI
