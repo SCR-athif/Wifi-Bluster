@@ -2,6 +2,10 @@
 A free wifi cracking tool. This tool is developed fully for educational purposes. Don't use it for hacking others password or Wifi that are not belongs to you. If you do so all legality and risk is on your shoulder.
 
 # Installation Steps:
+## Download
+    git clone https://github.com/SCR-athif/Wifi-Bluster.git
+    
+## Installing
 1. sudo apt-get update
 2. sudo apt install python
 3. sudo chmod +x main.py
