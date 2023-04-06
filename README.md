@@ -15,7 +15,7 @@ A free wifi cracking tool. This tool is developed fully for educational purposes
 ## Run program using command
     sudo ./main.py
 
-#Step a to z
+# Step a to z
     1. Connect Wifi Adapter and check its name (run 'iwconfig' command)
     2. Now choose option 1 and enter adapter name (ex: wlan0)
     3. After confirming Wifi adapter converted into Monitor mode choose option 2
@@ -24,5 +24,5 @@ A free wifi cracking tool. This tool is developed fully for educational purposes
     6. While capturing open new tab and option 4
     7. Now when handshake is captured press option 5
 
-#Credit
+# Credit
 Mohammed athif - [Linkedin](https://www.linkedin.com/in/mohammed-athif-scr/) | [Instagram](https://instagram.com/mohammed__athif?igshid=ZDdkNTZiNTM=) 
