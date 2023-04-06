@@ -1,21 +1,43 @@
-# Wifi-Bluster
+
+<h1 align="center">Wifi-Bluster</h1>
+
+<p align="center">
+  <a href="#installing">Installation</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#usage">Usage</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#download">Download</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#credit">Credits</a>
+</p>
+
+# About
+
 A free wifi cracking tool. This tool is developed fully for educational purposes. Don't use it for hacking others password or Wifi that are not belongs to you. If you do so all legality and risk is on your shoulder.
 
-# Installation Steps:
 ## Download
-    git clone https://github.com/SCR-athif/Wifi-Bluster.git
+    $ git clone https://github.com/SCR-athif/Wifi-Bluster.git
     
 ## Installing
-1. sudo apt-get update
-2. sudo apt install python
-3. sudo chmod +x main.py
-4. pip install -r requirements.txt
-5. pip3 install --upgrade pyfiglet 
+```console
+# Update to latest version
+$ sudo apt-get update
+$ sudo apt install python
+
+# Change permision to executable
+$ sudo chmod +x main.py
+
+# Download requirements
+$ pip install -r requirements.txt
+
+# update figlet into latest version to error free usage.
+$ pip3 install --upgrade pyfiglet 
+```
 
 ## Run program using command
-    sudo ./main.py
+    $ sudo ./main.py
 
-# Step a to z
+## Usage
     1. Connect Wifi Adapter and check its name (run 'iwconfig' command)
     2. Now choose option 1 and enter adapter name (ex: wlan0)
     3. After confirming Wifi adapter converted into Monitor mode choose option 2
@@ -24,5 +46,5 @@ A free wifi cracking tool. This tool is developed fully for educational purposes
     6. While capturing open new tab and option 4
     7. Now when handshake is captured press option 5
 
-# Credit
+## Credit
 Mohammed athif - [Linkedin](https://www.linkedin.com/in/mohammed-athif-scr/) | [Instagram](https://instagram.com/mohammed__athif?igshid=ZDdkNTZiNTM=) 
